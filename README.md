@@ -10,7 +10,7 @@ Running this Leo program computes the LR model from a set of training data point
 
 ## Usage Guide
 
-Make sure you have [Leo installed](https://developer.aleo.org/getting_started/) and that you have the opened the terminal in the `linear-regression-example` folder. This code was tested with Leo 1.8.2 (you can check it with `leo --version`). The training data points are passed into Leo through the console. You can modify the input values as needed. Each x and y pair represents a data point for the linear regression model. You can also modify the number of training data points by adjusting the code.
+Make sure you have [Leo installed](https://developer.aleo.org/getting_started/) and that you have the opened the terminal in the `linear-regression-example` folder. This code was tested with Leo 1.9.1 (you can check it with `leo --version`, and update with `leo update`). The training data points are passed into Leo through the console. You can modify the input values as needed. Each x and y pair represents a data point for the linear regression model. You can also modify the number of training data points by adjusting the code.
 
 To compile and run this Leo program, run:
 ```bash

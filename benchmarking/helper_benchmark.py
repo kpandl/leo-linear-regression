@@ -152,8 +152,8 @@ def benchmark(inputs):
 
     runtime = end - start
 
-    # Check if "Executed" is in the results string
-    success = "Executed" in result
+    # Check if "Finished" is in the results string
+    success = "Finished" in result
     if success:
         # Extract the number before the word "constraints" in the results string
         constraints = result.split("constraints")[0].split()[-1].replace(",", "")
