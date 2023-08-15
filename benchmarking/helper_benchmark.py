@@ -131,7 +131,7 @@ def benchmark(inputs):
     start = time.time()
     process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
-    # Measure memory usage every second
+    # Measure memory usage every 100 milliseconds
 
     while process.poll() is None:
         try:
