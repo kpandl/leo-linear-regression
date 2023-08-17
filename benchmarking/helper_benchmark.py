@@ -123,7 +123,7 @@ def get_memory_usages_by_name(proc_name):
 
 def benchmark(inputs):
     # Leo program command
-    command = ['leo', 'run', 'main', inputs]
+    command = ['leo', 'execute', 'main', inputs]
 
     max_memory = 0
 
@@ -152,8 +152,8 @@ def benchmark(inputs):
 
     runtime = end - start
 
-    # Check if "Finished" is in the results string
-    success = "Finished" in result
+    # Check if "Executed" is in the results string
+    success = "Executed" in result
     if success:
         # Extract the number before the word "constraints" in the results string
         constraints = result.split("constraints")[0].split()[-1].replace(",", "")
